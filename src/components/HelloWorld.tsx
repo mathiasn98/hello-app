@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 // import * as Bonjour from './Bonjour.html';
 // const html_import = require('./Bonjour.html');
-import html from './Bonjour.html';
+// import html from '../public/Bonjour.html';
+const html = require('./Bonjour.html');
 
 const HelloWorld: React.FC = () => {
   return (
